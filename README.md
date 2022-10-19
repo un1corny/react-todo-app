@@ -14,10 +14,10 @@ $ git clone https://github.com/un1corny/react-todo-app
 
 Install dependencies. Make sure you already have [`nodejs`](https://nodejs.org/en/) & [`npm`](https://www.npmjs.com/) installed in your system.
 ```bash
-$ npm install # or yarn
+$ yarn # or npm install
 ```
 
 Run it
 ```bash
-$ npm start # or yarn start
+$ yarn start # or npm start
 ```
