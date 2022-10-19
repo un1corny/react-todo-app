@@ -8,8 +8,8 @@ export default function TodoItem(props) {
 
     return (
         <li className={className}>
-            <div className="checkbox">
-                <label>
+            <div className="checkbox" >
+                <label data-cy="list-item-content">
                     <CheckBox checked={data.completed} onChange={handleChange}/> {data.text}
                 </label>
             </div>

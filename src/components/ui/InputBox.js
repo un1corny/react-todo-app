@@ -6,12 +6,14 @@ function InputBox(props) {
 
     return (
         <input autoFocus
+            data-cy="input-new-item"
             type="text"
             className="form-control add-todo"
             value={value}
             onKeyUp={handleKeyUp}
             onChange={handleChange}
             placeholder="Add New"
+            maxLength={10}
         />
     );
 }
